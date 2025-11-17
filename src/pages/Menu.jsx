@@ -78,6 +78,18 @@ export function Menu() {
                         key={item.name}
                         className="pb-5 sm:pb-6 border-b border-forest/5 last:border-0 last:pb-0"
                       >
+                        {/* Item Image */}
+                        {item.image && (
+                          <div className="mb-3 sm:mb-4 rounded-xl overflow-hidden bg-forest/5 group/image">
+                            <img
+                              src={item.image}
+                              alt={item.name}
+                              className="w-full h-40 sm:h-48 object-cover transition-transform duration-300 hover:scale-105"
+                              loading="lazy"
+                            />
+                          </div>
+                        )}
+
                         {/* Item Header - Stack on Mobile */}
                         <div className="mb-2.5 sm:mb-3">
                           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-3">

@@ -10,37 +10,43 @@ export const MENU_CATEGORIES = [
         name: 'Arcadian Special Salad',
         description: 'Our signature salad with a perfect blend of fresh greens and special dressing.',
         price: '₨ 1,355',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=600&fit=crop'
       },
       {
         name: 'Caesar Salad with Sundried Tomatoes',
         description: 'Classic Caesar with sundried tomatoes for an extra burst of flavor.',
         price: '₨ 1,240',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=800&h=600&fit=crop'
       },
       {
         name: 'Cali Salad',
         description: 'California-style fresh greens with avocado and citrus dressing.',
         price: '₨ 1,325',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&h=600&fit=crop'
       },
       {
         name: 'Garden Green Salad with Grilled Chicken',
         description: 'Fresh garden greens topped with perfectly grilled chicken.',
         price: '₨ 970',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=600&fit=crop'
       },
       {
         name: 'Sweet Pepper Steak Salad',
         description: 'Tender steak with sweet peppers over fresh greens.',
         price: '₨ 1,810',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=600&fit=crop'
       },
       {
         name: 'Thai Crispy Chicken Salad',
         description: 'Crispy chicken with Thai-inspired flavors and fresh vegetables.',
         price: '₨ 1,240',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1505252585461-04db228a352d?w=800&h=600&fit=crop'
       }
     ]
   },
@@ -53,74 +59,86 @@ export const MENU_CATEGORIES = [
         name: 'Chicken Lasagne',
         description: 'Layers of pasta, chicken, and rich cheese sauce.',
         price: '₨ 1,610',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=800&h=600&fit=crop'
       },
       {
         name: 'Fettuccine Pasta',
         description: 'Classic fettuccine with creamy sauce.',
         price: '₨ 1,630',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=600&fit=crop'
       },
       {
         name: 'Louisiana Fried Chicken Pasta',
         description: 'Southern-style fried chicken over pasta.',
         price: '₨ 1,655',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=600&fit=crop'
       },
       {
         name: 'Penne Ala Arrabbiata Aux Poulet',
         description: 'Spicy penne pasta with chicken in arrabbiata sauce.',
         price: '₨ 1,710',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&h=600&fit=crop'
       },
       {
         name: 'Penne Carbonara',
         description: 'Creamy carbonara with bacon and parmesan.',
         price: '₨ 1,655',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=600&fit=crop'
       },
       {
         name: 'Popcorn Chicken Pasta',
         description: 'Crispy popcorn chicken pieces over pasta.',
         price: '₨ 1,655',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&h=600&fit=crop'
       },
       {
         name: 'Rattlesnake Pasta',
         description: 'Spicy pasta with a kick of heat.',
         price: '₨ 1,710',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&h=600&fit=crop'
       },
       {
         name: 'Southwestern Chicken & Shrimp Pasta',
         description: 'Southwestern flavors with chicken and shrimp.',
         price: '₨ 1,840',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=600&fit=crop'
       },
       {
         name: 'Special Italiano Pasta',
         description: 'Our special Italian-style pasta creation.',
         price: '₨ 1,710',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&h=600&fit=crop'
       },
       {
         name: 'Spicy Chipotle Chicken Pasta',
         description: 'Bold chipotle flavors with tender chicken.',
         price: '₨ 1,710',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&h=600&fit=crop'
       },
       {
         name: 'Spicy Fettuccini Chicken Pasta',
         description: 'Spicy fettuccine with perfectly cooked chicken.',
         price: '₨ 1,655',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=600&fit=crop'
       },
       {
         name: 'Stuffed Chicken Pasta',
         description: 'Stuffed chicken served over pasta.',
         price: '₨ 1,840',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&h=600&fit=crop'
       }
     ]
   },
@@ -134,43 +152,50 @@ export const MENU_CATEGORIES = [
         description: 'Our signature pizza with special toppings.',
         price: '₨ 1,565 - ₨ 2,415',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&h=600&fit=crop'
       },
       {
         name: 'Deep Stuffed Crust Pizza',
         description: 'Pizza with a deliciously stuffed crust.',
         price: '₨ 2,595',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=600&fit=crop'
       },
       {
         name: 'Euro Fiesta Pizza',
         description: 'European-inspired pizza with festive toppings.',
         price: '₨ 1,565 - ₨ 2,410',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&h=600&fit=crop'
       },
       {
         name: 'Feisty Chicken Tikka Pizza',
         description: 'Spicy chicken tikka on a crispy pizza base.',
         price: '₨ 1,500 - ₨ 2,350',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=600&fit=crop'
       },
       {
         name: 'Pepperoni Pizza',
         description: 'Classic pepperoni pizza.',
         price: '₨ 1,500 - ₨ 2,410',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&h=600&fit=crop'
       },
       {
         name: 'Sizzling Chicken Fajita Pizza',
         description: 'Fajita-style chicken with sizzling flavors.',
         price: '₨ 1,500 - ₨ 1,870',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=600&fit=crop'
       },
       {
         name: 'Special Thin Crust Pizza',
         description: 'Crispy thin crust with premium toppings.',
         price: '₨ 2,445',
-        tags: []
+        tags: [],
+        image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&h=600&fit=crop'
       }
     ]
   },
@@ -202,7 +227,8 @@ export const MENU_CATEGORIES = [
         description: 'One of our most popular innovative dishes.',
         price: '₨ 2,200',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&h=600&fit=crop'
       },
       {
         name: 'Basil Leaf (variant)',
@@ -251,7 +277,8 @@ export const MENU_CATEGORIES = [
         description: 'Bold and spicy red dragon sauce with chicken.',
         price: '₨ 2,200',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&h=600&fit=crop'
       },
       {
         name: 'Samurai Chicken',
@@ -276,7 +303,8 @@ export const MENU_CATEGORIES = [
         description: 'Butter-stuffed chicken with spicy sauce.',
         price: '₨ 2,200',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&h=600&fit=crop'
       },
       {
         name: 'Sun Tzu',
@@ -295,7 +323,8 @@ export const MENU_CATEGORIES = [
         description: 'Artfully woven prawn preparation.',
         price: '₨ 2,500',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=800&h=600&fit=crop'
       }
     ]
   },
@@ -309,7 +338,8 @@ export const MENU_CATEGORIES = [
         description: 'Tender beef medallions with our special preparation.',
         price: '₨ 2,700',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&h=600&fit=crop'
       },
       {
         name: 'Arcadian Special Sandwich',
@@ -376,7 +406,8 @@ export const MENU_CATEGORIES = [
         description: 'Korean-inspired mac and cheese creation.',
         price: '₨ 1,800',
         tags: [],
-        highlight: true
+        highlight: true,
+        image: 'https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=800&h=600&fit=crop'
       }
     ]
   },
