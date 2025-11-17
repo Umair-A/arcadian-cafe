@@ -94,18 +94,16 @@ export function Menu() {
                         <div className="mb-2.5 sm:mb-3">
                           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-3">
                             <div className="flex-1 min-w-0">
-                              <div className="flex flex-wrap items-start gap-2">
-                                <h3 className="font-bold text-base sm:text-lg text-forest leading-tight flex-1 min-w-0">
-                                  {item.name}
-                                </h3>
-                                {item.highlight && (
-                                  <span className="inline-flex items-center gap-1 rounded-full bg-gold/15 px-2 sm:px-2.5 py-1 text-[10px] sm:text-xs font-bold uppercase tracking-wide text-gold border border-gold/30 flex-shrink-0">
-                                    <span className="text-xs sm:text-sm">⭐</span>
-                                    <span className="hidden sm:inline">Chef's Pick</span>
-                                    <span className="sm:hidden">Pick</span>
-                                  </span>
-                                )}
-                              </div>
+                              <h3 className="font-bold text-base sm:text-lg text-forest leading-tight mb-1.5">
+                                {item.name}
+                              </h3>
+                              {item.highlight && (
+                                <span className="inline-flex items-center gap-1 rounded-full bg-gold/15 px-2 sm:px-2.5 py-1 text-[10px] sm:text-xs font-bold uppercase tracking-wide text-gold border border-gold/30">
+                                  <span className="text-xs sm:text-sm">⭐</span>
+                                  <span className="hidden sm:inline">Chef's Pick</span>
+                                  <span className="sm:hidden">Pick</span>
+                                </span>
+                              )}
                             </div>
                             <p className="text-lg sm:text-xl font-bold text-forest whitespace-nowrap flex-shrink-0 self-start">
                               {item.price}
