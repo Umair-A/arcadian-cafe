@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { BRAND } from '../data/brand'
 import { getOpenStatus } from '../utils/hours'
+import logoImage from '../assets/logo1.webp'
 
 const NAV_LINKS = [
   { to: '/', label: 'Home' },
@@ -20,10 +21,14 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-forest/10 bg-cream/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-forest font-serif text-lg text-cream">
-            AC
-          </span>
-          <span>
+          <div className="flex items-center justify-center rounded-lg p-2">
+            <img
+              src={logoImage}
+              alt="Arcadian Cafe Logo"
+              className="h-12 w-auto object-contain"
+            />
+          </div>
+          <span className="hidden sm:block">
             <p className="text-xs uppercase tracking-[0.3em] text-gold">Arcadian Cafe</p>
             <p className="font-serif text-lg text-forest">{BRAND.cityTag}</p>
           </span>
