@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif tracking-tight text-ink;
+  }
+
+  ::selection {
+    @apply bg-gold text-cream;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply mb-2 text-xs font-semibold uppercase tracking-[0.3em] text-gold;
+  }
+
+  .card {
+    @apply rounded-2lg bg-cloud shadow-soft;
+  }
+
+  .btn-pill {
+    @apply inline-flex items-center justify-center rounded-full border border-transparent px-5 py-2.5 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn-pill bg-forest text-cream shadow-lg shadow-forest/25 hover:-translate-y-0.5;
+  }
+
+  .btn-ghost {
+    @apply btn-pill border border-forest text-forest hover:bg-forest/5;
+  }
+}
